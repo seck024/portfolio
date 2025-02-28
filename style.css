@@ -1,0 +1,494 @@
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
+
+#fa-bars {
+    position: absolute;
+    right: 0;
+    margin: 3%;
+    background-color: transparent;
+    position: fixed;
+    display: none;
+    border: none;
+}
+
+
+.portfolio {
+    background-image: url("images/Acceuil.jpg");
+    max-height: 730px;
+    background-color: beige;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 160%;
+    display: flex;
+    flex-direction: row;
+}
+.photo-profile h6{
+    align-items: center;
+}
+.accueil{
+    display: flex;
+    flex-direction: row;
+    margin-left: 600px;
+    height: 728px;
+    margin-top: 300px;
+}
+.A-Propos
+.ordi{
+    text-align: center;
+}
+.presentation{
+    text-align: center;
+
+}
+.presentation1 {
+    text-align: center;
+    height: 728px;
+}
+.nom{
+    font-family: Arial;
+    font-size: 64px;
+    font-weight:700;
+    color:white;
+    line-height: absolute;
+    font-size: 50px;
+}
+.site{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    position: fixed;
+    width: 230px;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 20px;
+    background-color: black;
+    height: 100%;
+}
+.fa-2xl{
+    height: 100px;
+    text-align: center;
+}
+.svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa{
+    margin-left: 45px;
+}
+.icon-acceuil{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.A-Pro{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    transition: 1s;
+}
+.A-Pro i:hover{
+    color: white;
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+    font-size: 20px;
+}
+.icon-acceuil i:hover{
+    color: white;
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+    font-size: 20px;
+}
+.parcours span:hover{
+    color: white;
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+    font-size: 20px;
+}
+.project span:hover{
+    color: white;
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+    font-size: 20px;
+}
+.contact span:hover{
+    color: white;
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+    font-size: 20px;
+}
+.veille span:hover{
+    color: white;
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+    font-size: 20px;
+}
+.project{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.contact{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    margin-top:30px;
+}
+.veille{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    margin-top:30px;
+}
+.parcours{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.logo{
+    flex-direction: row;
+    margin-top: 60px;
+}
+.h5{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: blue;
+}
+.id-papa{
+    display: flex;
+    flex-direction: row;
+}
+.moi{
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 100px;
+    display:flex;
+    flex-direction: row;
+}
+.branche{
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 30px;
+    display:flex;
+}
+.option{
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 30px;
+    display:flex;
+    justify-content: space-around;
+    grid-gap: 10%;
+}
+.sisr{
+    border: 1px solid black;
+}
+.slam{
+    border: 1px solid black;
+}
+.text-propos{
+    margin-top: 200px;
+}
+#mon-cv{
+    border-radius: 20px;height: 50px;width: 150px
+}
+.cnt{
+    background-color: #010010f2;
+    width: 500px;
+    margin-left: 590px;
+    height: 600px;
+    margin-top: 100px;
+    border-radius: 50px;
+}
+.bts\?{
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 100px;
+    display:flex;
+}
+.text-bts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 300px;
+}
+.text-certif{
+    margin-left: 450px;
+    margin-top: 14px;
+    display:flex;
+    flex-direction: column;
+}
+.text-competences{
+    margin-left: 450px;
+    margin-top: 14px;
+    display:flex;
+    flex-direction: column;
+}
+
+.icon-competences{
+    margin-left: 300px;
+    margin-top: 40px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.img-certif{
+    position: relative;
+    left: 40%;
+}
+
+.icon-competences img {
+    width: 100px;
+    height: 100px;
+    animation: icon;
+    transition: 1s ;
+}
+.icon-competences img:hover{
+    scale: 2;
+}
+.stage{
+    width: 50%;
+    height: 350px;
+    background: linear-gradient(135deg, #f4f1f0, #ffffff);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+    left: 460px;
+}
+.stage:hover{
+    background: linear-gradient(135deg, #d3915b, #f68383);
+}
+.text-stage{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.text-stage h5:nth-child(2){
+    position: relative;
+    left: 80px;
+}
+#dure{
+    background-color: transparent;
+    border-radius: 14px;
+    margin: 8%;
+}
+.stage p{
+    margin-left: 10%;
+}
+.stage1 p{
+    margin-left: 10%;
+}
+#rapport{
+    border-radius: 0px;
+    margin-left: 35%;
+    height: 50px;
+}
+#rapport:hover{
+    color: white;
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+    font-size: 20px;
+}
+.stage1{
+    width: 50%;
+    height: 350px;
+    background: linear-gradient(135deg, #f4f1f0, #ffffff);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+    left: 460px;
+    margin-top:50px;
+}
+.stage1:hover{
+    background: linear-gradient(135deg, #d3915b, #f68383);
+}
+.p-realiser{
+    display: flex;
+    position: relative;
+    left: 450px;
+    flex-wrap: wrap;
+    grid-gap: 100px;
+}
+.vid h3{
+    text-align: center;
+}
+.p-realiser video{
+    width: 400px;
+    transition: 1s;
+}
+.p-realiser video:hover{
+    cursor: pointer;
+    scale: 1.2;
+}
+.p-realiser p:first-child{
+    background-color: #d3915b;
+}
+@media  screen and (max-width: 768px) {
+    html{
+        overflow-x: hidden;
+    }
+    .accueil{
+        display: flex;
+        flex-direction: row;
+        margin-left: 230px;
+        height: 728px;
+        margin-top: 300px;
+    }
+    #fa-bars{
+        display: block;
+    }
+    .text-certif{
+        margin-left: 320px;
+    }
+    .option{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #A-propos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        right: 15%;
+    }
+    .img-certif{
+        position: relative;
+        left: 57%;
+    }
+    .icon-competences {
+        margin-left: 470px;
+    }
+    .A-Pro i:hover{
+        color: white;
+        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+        font-size: 20px;
+    }
+    .icon-acceuil i:hover{
+        color: white;
+        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+        font-size: 20px;
+    }
+    .parcours span:hover{
+        color: white;
+        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+        font-size: 20px;
+    }
+    .project span:hover{
+        color: white;
+        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+        font-size: 20px;
+    }
+    .contact span:hover{
+        color: white;
+        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+        font-size: 20px;
+    }
+    .veille span:hover{
+        color: white;
+        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+        font-size: 20px;
+    }
+    .stage{
+        left: 320px;
+    }
+    .stage1{
+        left: 320px;
+    }
+    #rapport{
+        margin-left: 25%;
+    }
+    .p-realiser{
+        left: 250px;
+    }
+
+}
+@media  screen and (max-width: 431px){
+.menu{
+    display: none;
+}
+.fa-bars{
+    display: block;
+    position: absolute;
+    left: 0;
+    margin: 3%;
+    background-color: transparent;
+    position: fixed;
+}
+    .accueil{
+        position: relative;
+        right: 35%;
+    }
+    #A-propos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        right: 60%;
+        width: 158%;
+    }
+    #parcours {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        right: 60%;
+        width: 158%;
+    }
+    .text-propos{
+        margin-top: 200px;
+        position: relative;
+        right: 10%;
+    }
+    .text-propos p:first-child(1){
+        font-size: 17px;
+    }
+    .carousel-inner {
+        right: 20%;
+    }
+
+    .text-certif {
+        margin-left: 271px;
+    }
+    .text-competences {
+        margin-left: 271px;
+    }
+    .text-bts p:nth-child(1){
+        margin-left: 5%;
+    }
+    .icon-competences{
+        flex-wrap: wrap;
+        margin-left:300px;
+    }
+    .A-Pro i:hover{
+        color: white;
+        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+        font-size: 20px;
+    }
+    .icon-acceuil i:hover{
+        color: white;
+        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+        font-size: 20px;
+    }
+    .parcours span:hover{
+        color: white;
+        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+        font-size: 20px;
+    }
+    .project span:hover{
+        color: white;
+        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+        font-size: 20px;
+    }
+    .contact span:hover{
+        color: white;
+        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+        font-size: 20px;
+    }
+    .veille span:hover{
+        color: white;
+        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+        font-size: 20px;
+    }
+    #project{
+        margin-right: 215px;
+    }
+
+}
