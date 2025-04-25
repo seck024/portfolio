@@ -306,6 +306,13 @@ body{
     flex-wrap: wrap;
     grid-gap: 100px;
 }
+.p-realiser1{
+    display: flex;
+    position: relative;
+    left: 450px;
+    flex-wrap: wrap;
+    grid-gap: 100px;
+}
 .vid h3{
     text-align: center;
 }
@@ -313,12 +320,87 @@ body{
     width: 400px;
     transition: 1s;
 }
+.p-realiser img{
+    width: 400px;
+}
 .p-realiser video:hover{
+    cursor: pointer;
+    scale: 1.2;
+}
+.p-realiser img:hover{
     cursor: pointer;
     scale: 1.2;
 }
 .p-realiser p:first-child{
     background-color: #d3915b;
+}
+
+.p-realiser1 video{
+    width: 400px;
+    transition: 1s;
+}
+.p-realiser1 img{
+    width: 400px;
+}
+.p-realiser1 video:hover{
+    cursor: pointer;
+    scale: 1.2;
+}
+.p-realiser1 img:hover{
+    cursor: pointer;
+    scale: 1.2;
+}
+.p-realiser1 p:first-child{
+    background-color: #d3915b;
+}
+.contact1{
+    background: linear-gradient(135deg, #f4f1f0, #ffffff);
+    text-align: center;
+    position: relative;
+    width: 700px;
+    left: 35%;
+    top: 70px;
+}
+.contact1 form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient(135deg, #f4f1f0, #ffffff);
+}
+.contact1 input{
+    text-align: center;
+}
+.contact1 textarea{
+    height: 150px;
+}
+.request_message{
+    color: green;
+}
+.text-veille{
+    margin-left: 450px;
+    display: flex;
+    flex-direction: column;
+}
+.theme{
+    text-align: center;
+
+}
+.theme1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    gap: 25px;
+}
+.theme1 div{
+    text-align: center;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.source{
+    background-color: grey;
+    border: 1px solid black;
 }
 @media  screen and (max-width: 768px) {
     html{
@@ -348,6 +430,9 @@ body{
         justify-content: center;
         position: relative;
         right: 15%;
+    }
+    #contact1{
+        width: 415px;
     }
     .img-certif{
         position: relative;
@@ -398,6 +483,16 @@ body{
     .p-realiser{
         left: 250px;
     }
+    .p-realiser1{
+        left: 250px;
+    }
+    .text-veille{
+        margin-left: 320px;
+    }
+    .theme1{
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 @media  screen and (max-width: 431px){
@@ -431,6 +526,9 @@ body{
         position: relative;
         right: 60%;
         width: 158%;
+    }
+    #contact1{
+        left: 0;
     }
     .text-propos{
         margin-top: 200px;
@@ -487,8 +585,27 @@ body{
         text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
         font-size: 20px;
     }
-    #project{
-        margin-right: 215px;
+    #projets{
+        right: 55%;
+        position: relative;
     }
-
+    .p-realiser{
+        grid-gap: 0;
+    }
+    .p-realiser1{
+        left: 0px;
+    }
+    .text-veille {
+        margin-left: 271px;
+    }
+}
+@media screen and (max-width: 376px){
+    #parcours {
+        right: 75%;
+        width: 158%;
+    }
+    #projets {
+        right: 66%;
+        position: relative;
+    }
 }

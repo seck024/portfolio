@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY PORTFOLIO</title>
+    <link rel="icon" href="https://wallpaperaccess.com/full/2898362.jpg">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="project.php">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
@@ -32,15 +34,15 @@
         </div>
         <div class="project">
             <i class="fa-solid fa-folder-open fa-xl" style="color: #ffffff;margin: 0;"></i>
-            <h5><span style="color: white;margin-left: 20px;"><i>Projets</i></span></h5>
+            <a style="text-decoration: initial;margin: 0;"href="#projets"><h5><span style="color: white;margin-left: 20px;"><i>Projets</i></span></h5></a>
         </div>
         <div class="contact">
             <i class="fa-solid fa-envelope fa-xl" style="color: #ffffff;margin: 0;"></i>
-            <a style="text-decoration: initial" href="contact.html"> <h5><span style="color: white;margin-left: 20px;"><i>Contact</i></span></h5></a>
+            <a style="text-decoration: initial" href="#contact1"> <h5><span style="color: white;margin-left: 20px;"><i>Contact</i></span></h5></a>
         </div>
         <div class="veille">
             <i class="fa-solid fa-server fa-xl "style="color: #ffffff;margin: 0;"></i>
-            <a style="text-decoration: initial" href="contact.html"> <h5><span style="color: white;margin-left: 20px;"><i>Veille</i></span></h5></a>
+            <a style="text-decoration: initial" href="#veilletechno"> <h5><span style="color: white;margin-left: 20px;"><i>Veille</i></span></h5></a>
         </div>
         <div class="logo">
             <a href="https://www.linkedin.com/in/papa-amadou-seck-671346253/"> <i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff;margin:0;"></i></a>
@@ -375,8 +377,197 @@
                 Language : HTML / CSS / JavaScript
             </p>
             <p style="text-align: center">
-                un jeu de reflexion
+                un jeu de piste
             </p>
+        </div>
+    </div>
+</div>
+
+<div class="p-realiser1 ">
+    <div class="vid">
+        <h3>
+            <i style="font: small-caption;font-size: larger;">Dashboard</i>
+        </h3>
+        <a href="https://github.com/seck024/laravel-introduction-master">
+            <img src="images/dashboard.png">
+        </a>
+        <p style="background-color: #d3915b;width: 90%;text-align: center">
+            Language : php/laravel /HTML/ CSS / JavaScript/sql
+        </p>
+        <p style="text-align: center">
+            Création d'une application d'écho <br>
+            geste avec une base de données <br>
+            les informations qui s'affichent sur l'écran changent en fonction <br>
+            de l'utilisateur qui se connecte
+        </p>
+    </div>
+    <div class="vid">
+        <h3>
+            <i style="font: small-caption;font-size: larger;text-align: center"> TP:Call API </i>
+        </h3>
+        <a href="https://github.com/seck024/Api">
+            <video autoplay loop muted playsinline>
+                <source src="videos/Api.mp4" type="video/mp4">
+            </video>
+        </a>
+        <p style="background-color: #d3915b;width: 100%;text-align: center">
+            Language : HTML / CSS / JavaScript
+        </p>
+        <p style="text-align: center">
+            interroger l'API okapi pour afficher les différentes <br>
+            caractéristiques des Pokémon sur ma page
+        </p>
+    </div>
+</div>
+<div class="p-realiser1">
+    <div class="vid">
+        <h3>
+            <i style="font: small-caption;font-size: larger;">Animation CSS</i>
+        </h3>
+        <a href="https://github.com/seck024/laravel-introduction-master">
+            <video autoplay loop muted playsinline>
+                <source src="videos/CSS.mp4" type="video/mp4">
+            </video>
+        </a>
+        <p style="background-color: #d3915b;width: 100%;text-align: center">
+            Language : HTML/ CSS /
+        </p>
+        <p style="text-align: center">
+            exercice d'aplliction : des animation css sans utiliser de famework
+        </p>
+
+
+    </div>
+    <div class="vid">
+        <h3>
+            <i style="font: small-caption;font-size: larger;text-align: center"> TP:Call API </i>
+        </h3>
+        <a href="https://github.com/seck024/Api">
+            <video autoplay loop muted playsinline>
+                <source src="videos/Api.mp4" type="video/mp4">
+            </video>
+        </a>
+        <p style="background-color: #d3915b;width: 100%;text-align: center">
+            Language : HTML / CSS / JavaScript
+        </p>
+        <p style="text-align: center">
+            interroger l'API okapi pour afficher les différentes <br>
+            caractéristiques des Pokémon sur ma page
+        </p>
+    </div>
+</div>
+<div class="contact1" id="contact1">
+    <p class="request_message" id="message">
+
+    </p>
+    <h2>Contactez-Moi</h2>
+       <form method="POST" action="project.php">
+           <form action="project.php" method="post">
+               <label>Nom :</label>
+               <input type="text" name="name" required>
+
+               <label>Email :</label>
+               <input type="email" name="email" required>
+
+               <label>Message :</label>
+               <textarea name="message" required></textarea>
+
+               <button type="submit">Envoyer</button>
+       </form>
+</div>
+<div class ="veilletechno" id="veilletechno">
+    <div class="bts?">
+        <h3><i>veille technologique</i>
+            <i class="fa-solid fa-server fa-xl "style="color: black;margin: 0;"></i>
+            <hr style="background-color: #100f0f;height: 4px;border-color: #100f0f"></h3>
+        <hr style="background-color: #100f0f;height: 4px">
+    </div>
+    <div class ="text-veille">
+        <h3>
+            qu'est-ce la veille technologique ?
+        </h3>
+        <p>
+            La veille technologique, élément de la veille stratégique, consiste à surveiller les évolutions techniques,<br>
+            les innovations dans un secteur d’activité donnée. La veille technologique comprend notamment la surveillance,<br>
+            la collecte, le partage et la diffusion d’information permettant d’anticiper ou de s’informer sur des changements en matière de recherche,<br>
+            développement, brevet, lancement de nouveaux produits, matériaux, processus, concepts, innovation de fabrication,etc…. <br>
+            Cela a pour but d’évaluer l’impact sur l’environnement et l’organisation.
+        </p>
+        <h3>
+            Les principeaux outils de ma veille
+        </h3>
+        <p>
+            J'ai effectuer ma veille technologique grace aux newsletters tel que Openai.com le newletter des professionnels en Data Science.<br>
+            En plus des informations fournis chaque semaine/mois, j'ai quelque sites en favoris permettant de me tenir au courant des derniéres actualités tel que Hitek.fr <br>
+            qui est un site internet regroupant l’actualité High Tech et Geek, ou encore Hardware.fr un site regroupant l'actualité sur les processeurs, <br>
+            les cartes graphiques, les cartes méres, ect...
+        </p>
+        <h3>
+            Sujet de ma veille
+        </h3>
+        <p>
+            Pour la veille techologique, j'ai décidé de traiter sur le sujet de l'IA, ma thématique est :<br>
+            Quelle est le futur de L'intéligence artificielle dans notre société
+            Afin de répondre a cette thématique ma veille se repose sur 3 différents thémes
+        </p>
+        <div class ="theme">
+            <h3>
+                Théme 1 : Qu'est ce que l’intelligence artificielle ?
+            </h3>
+
+         </div>
+</div>
+    <div class="theme1">
+        <div>
+            <h3>
+                Une definition de l'intelligence artificielle?
+            </h3>
+            <h4>
+                1 février 2022
+            </h4>
+            <p>
+                L’intelligence artificielle est une constellation de technologies différentes,<br>
+                qui fonctionnent de concert pour permettre aux machines de percevoir, de comprendre, <br>
+                d’agir et d’apprendre à des niveaux d’intelligence comparables à ceux des humains. <br>
+                Cela explique sans doute pourquoi il y a autant de définitions de l'intelligence artificielle : <br>
+                l’IA ne se limite pas à une seule technologie.
+            </p>
+            <div class="source">
+                <h6>Source ESTIAM</h6>
+            </div>
+        </div>
+        <div>
+            <h3>
+                Algorithme Tiktok
+            </h3>
+            <h4>
+                3 février 2022
+            </h4>
+            <p>
+                En quelques clics, la célèbre application est capable de déceler de nombreux aspects de la vie de ses utilisateurs,<br>
+                jusqu’à générer un certain malaise. <br>
+                De quoi soulever de nombreuses questions sur son algorithme de recommandations. Enquête.
+            </p>
+            <div class="source">
+                <h6>Source ESTIAM</h6>
+            </div>
+        </div>
+        <div>
+            <h3>
+                Qu'est-ce que L'IA?
+            </h3>
+            <h4>
+                9 février 2022
+            </h4>
+            <p>
+                En termes simples, l'IA, qui signifie « intelligence artificielle »,<br>
+                désigne des systèmes ou des machines qui imitent l'intelligence humaine pour effectuer des tâches <br>
+                et qui peuvent s'améliorer de manière itérative en fonction des informations qu'ils recueillent.<br>
+                L’intelligence artificielle se manifeste sous plusieurs formes.
+            </p>
+            <div class="source">
+                <h6>Source ESTIAM</h6>
+            </div>
         </div>
     </div>
 </div>
