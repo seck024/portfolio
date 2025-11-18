@@ -59,11 +59,14 @@ body{
     margin: 0;
     padding: 0;
 }
+<<<<<<< HEAD
 .photo-profile{
     align-items: center;
     display: flex;
     flex-direction: column;
 }
+=======
+>>>>>>> a18c38196a6560fe45308bef47a6cb8e1e55ada5
 .menu{
     position: fixed;
     width: 230px;
@@ -74,10 +77,15 @@ body{
     height: 100%;
 }
 .fa-2xl{
+<<<<<<< HEAD
 
     text-align: center;
     font-size: 10em;
 
+=======
+    height: 100px;
+    text-align: center;
+>>>>>>> a18c38196a6560fe45308bef47a6cb8e1e55ada5
 }
 .svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa{
     margin-left: 45px;
@@ -86,8 +94,12 @@ body{
     cursor: pointer;
     display: flex;
     flex-direction: row;
+<<<<<<< HEAD
     margin-top: 20px;
     align-items: baseline;
+=======
+    margin-top: 50px;
+>>>>>>> a18c38196a6560fe45308bef47a6cb8e1e55ada5
 }
 .A-Pro{
     cursor: pointer;
@@ -95,7 +107,10 @@ body{
     flex-direction: row;
     margin-top: 30px;
     transition: 1s;
+<<<<<<< HEAD
     align-items: baseline;
+=======
+>>>>>>> a18c38196a6560fe45308bef47a6cb8e1e55ada5
 }
 .A-Pro i:hover{
     color: white;
@@ -132,28 +147,40 @@ body{
     display: flex;
     flex-direction: row;
     margin-top: 30px;
+<<<<<<< HEAD
     align-items: baseline;
+=======
+>>>>>>> a18c38196a6560fe45308bef47a6cb8e1e55ada5
 }
 .contact{
     cursor: pointer;
     display: flex;
     flex-direction: row;
     margin-top:30px;
+<<<<<<< HEAD
     align-items: baseline;
+=======
+>>>>>>> a18c38196a6560fe45308bef47a6cb8e1e55ada5
 }
 .veille{
     cursor: pointer;
     display: flex;
     flex-direction: row;
     margin-top:30px;
+<<<<<<< HEAD
     align-items: baseline;
+=======
+>>>>>>> a18c38196a6560fe45308bef47a6cb8e1e55ada5
 }
 .parcours{
     cursor: pointer;
     display: flex;
     flex-direction: row;
     margin-top: 30px;
+<<<<<<< HEAD
     align-items: baseline;
+=======
+>>>>>>> a18c38196a6560fe45308bef47a6cb8e1e55ada5
 }
 .logo{
     flex-direction: row;
@@ -415,6 +442,7 @@ body{
     background-color: grey;
     border: 1px solid black;
 }
+<<<<<<< HEAD
 footer{
     background-color: black;
     display: flex !important;
@@ -424,6 +452,8 @@ footer{
     color: white;
     margin-top: 20px;
 }
+=======
+>>>>>>> a18c38196a6560fe45308bef47a6cb8e1e55ada5
 @media  screen and (max-width: 768px) {
     html{
         overflow-x: hidden;
